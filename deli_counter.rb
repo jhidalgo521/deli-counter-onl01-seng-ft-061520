@@ -7,5 +7,6 @@ def line(arr)
   else
     arr.each.with_index do |n, i|
     puts "This line currently: #{i + 1}. #{n}"
+    end
   end
 end
