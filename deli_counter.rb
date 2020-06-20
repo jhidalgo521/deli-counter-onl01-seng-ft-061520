@@ -6,8 +6,10 @@ def line(arr)
     puts "The line is currently empty."
   else
     
+    message = "This line is currently: "
     arr.each.with_index do |n, i|
-     "This line currently: #{i + 1}. #{n}"
+    message += "#{i + 1}. #{n}"
     end
+    puts message
   end
 end
