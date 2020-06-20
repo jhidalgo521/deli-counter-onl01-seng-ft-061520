@@ -16,6 +16,7 @@ end
 
 def take_a_number(arr, name)
   arr << name
+  puts Welcome, #{name
   
   
   
