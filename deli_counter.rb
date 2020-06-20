@@ -15,8 +15,7 @@ def line(arr)
 end
 
 def take_a_number(arr, name)
-  
-  
+  arr.each
   
   
   
